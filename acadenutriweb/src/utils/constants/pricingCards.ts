@@ -1,0 +1,58 @@
+export const pricingCards: Props.PricingCard['cardData'][] = [
+  {
+    color: 'white',
+    price: 'R$ 79,90',
+    title: 'METAL PLAN',
+    list: [
+      'Up to 5 students',
+      'Student management',
+      'Teacher management',
+      'Trains in video',
+      'HIT (High intensity training)',
+      'Personalized trains',
+      '1% commission on all your patients purchases through the app',
+    ],
+  },
+  {
+    color: 'bronze',
+    price: 'R$ 79,90',
+    title: 'METAL PLAN',
+    list: [
+      'Up to 5 students',
+      'Student management',
+      'Teacher management',
+      'Trains in video',
+      'HIT (High intensity training)',
+      'Personalized trains',
+      '1% commission on all your patients purchases through the app',
+    ],
+  },
+  {
+    color: 'silver',
+    price: 'R$ 79,90',
+    title: 'METAL PLAN',
+    list: [
+      'Up to 5 students',
+      'Student management',
+      'Teacher management',
+      'Trains in video',
+      'HIT (High intensity training)',
+      'Personalized trains',
+      '1% commission on all your patients purchases through the app',
+    ],
+  },
+  {
+    color: 'gold',
+    price: 'R$ 79,90',
+    title: 'METAL PLAN',
+    list: [
+      'Up to 5 students',
+      'Student management',
+      'Teacher management',
+      'Trains in video',
+      'HIT (High intensity training)',
+      'Personalized trains',
+      '1% commission on all your patients purchases through the app',
+    ],
+  },
+];

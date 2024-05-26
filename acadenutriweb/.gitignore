@@ -1,0 +1,11 @@
+# Folders
+node_modules/
+out/
+cdk.out/
+dist/
+.next/
+
+# Files
+*.log
+*.env
+

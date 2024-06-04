@@ -4,7 +4,7 @@ out/
 cdk.out/
 dist/
 .next/
-
+.open-next/
 # Files
 *.log
 *.env

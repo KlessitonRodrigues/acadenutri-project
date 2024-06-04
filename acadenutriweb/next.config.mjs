@@ -1,3 +1,4 @@
+/*
 const exportPathMap = async function (defaultPathMap) {
   const pathMap = {};
   // Loop through all default paths
@@ -7,19 +8,20 @@ const exportPathMap = async function (defaultPathMap) {
   });
   return pathMap;
 };
+*/
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  exportPathMap,
   compress: true,
-  images: { unoptimized: true },
   compiler: {
     styledComponents: true,
   },
   publicRuntimeConfig: {
     staticFolder: 'src/public',
   },
+  images: { unoptimized: true },
+  // output: 'export',
+  // exportPathMap,
 };
 
 export default nextConfig;
